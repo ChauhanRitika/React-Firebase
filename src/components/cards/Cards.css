@@ -1,0 +1,32 @@
+.text-cards{
+    border-radius: 10px;
+    height: 270px;
+    width: 220px;
+    border: 1px solid #aa970a;
+    box-shadow: 1px 1px #aa970a;
+    overflow: auto;
+    padding: 10px;
+    margin: 10px;
+    background-color: #fff;
+    position: relative;
+}
+
+.options-card{
+    display: flex;
+    padding: 4px;
+    position: absolute;
+    bottom: 0px;
+}
+
+.edit-card{
+    color: rgb(0, 208, 255);
+    padding: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+.delete-card{
+    color: #d5be10;
+    cursor: pointer;
+    padding: 4px;
+    font-size: 1rem;
+}

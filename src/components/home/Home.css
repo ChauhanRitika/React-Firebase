@@ -1,0 +1,86 @@
+.main_container {
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 60%;
+    padding-top: 40px;
+    margin: auto;
+    position: relative;
+}
+
+.blog-btn-home button{
+    padding: 7px 10px;
+    outline: none;
+    width: 90px;
+    border: 1px solid grey;
+    border-radius: 20px;
+    color: #222020;
+    font-size: 0.8rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.header {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.heading_name {
+    font-size: xx-large;
+    border-bottom: 4px solid #63cdda;
+    font-weight: bold;
+    color: #222020;
+}
+
+.heading_info {}
+
+.resume_content {
+    height: 100%;
+    width: 100%;
+    padding-top: 20px;
+    border-top: 1px solid lightgray;
+}
+
+.person_data {
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.education {
+    font-size: 0.8rem;
+    color: rgb(105, 104, 104);
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.about_edu {
+    width: 60%;
+}
+
+.about_skills {
+    display: flex;
+    justify-content: space-between;
+}
+
+h3 {
+    font-size: .9rem;
+    font-weight: bold;
+    padding-top: 2px;
+}
+
+p {
+    color: rgb(105, 104, 104);
+    font-size: 0.8rem;
+    font-weight: 600;
+    padding: 2px;
+}
+
+.pt-14 {
+    padding-top: 14px;
+}
